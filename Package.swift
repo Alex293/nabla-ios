@@ -35,8 +35,8 @@ let package = Package(
         // SDK
         .package(url: "https://github.com/apollographql/apollo-ios", .exact("0.51.2")),
         .package(name: "LiveKit", url: "https://github.com/livekit/client-sdk-swift.git", .exact("1.0.13")),
-        .package(name: "Sentry", url: "https://github.com/getsentry/sentry-cocoa.git", .exact("8.1.0")),
-        
+        .package(name: "Sentry", url: "https://github.com/Brett-Best/sentry-cocoa", branch: "patch-1"),
+
         // Tests
         .package(url: "https://github.com/MakeAWishFoundation/SwiftyMocky", .exact("4.2.0")),
         .package(url: "https://github.com/pointfreeco/swift-snapshot-testing", .exact("1.11.0")),
